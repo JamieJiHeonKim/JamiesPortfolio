@@ -53,7 +53,7 @@ $(document).ready(function () {
     },
 
     error: function () {
-      let errorMsg = `<div class="errorMsg center">wtf...</div>`;
+      let errorMsg = `<div class="errorMsg center">Some error occurred</div>`;
       $("#newsResults").html(errorMsg);
     }
   })
