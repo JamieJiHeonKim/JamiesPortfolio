@@ -34,7 +34,7 @@ $(document).ready(function () {
             </div>
 
             <div class="card-reveal">
-              <span class="card-title"><i class="material-icons right">close</i></span>
+              <span class="card-title"><i class="material-icons right">Close</i></span>
               <p><b>Description</b>: ${latestNews[i].description}</p>
             </div>
 
