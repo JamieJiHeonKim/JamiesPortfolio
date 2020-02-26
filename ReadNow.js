@@ -1,4 +1,11 @@
-document.addEventListener('DOMContentLoaded', function () {
+document.getElementById("button1").addEventListener("click", myFunction);
+
+function openReadNow() {
+  window.open("https://www.jiheonkim.com/ReadNow/");
+}
+
+
+/*document.addEventListener('DOMContentLoaded', function () {
 	document.querySelector('button').addEventListener('click',
 		onclick, false)
 	function onclick(clicked_id) {
@@ -7,4 +14,4 @@ document.addEventListener('DOMContentLoaded', function () {
 		})
 		window.open("https://www.jiheonkim.com/ReadNow/");
 	}
-})
+})*/
