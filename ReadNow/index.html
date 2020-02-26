@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Read Now</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+	<style type="text/css">
+		#loader 
+		{
+			height: 100vh;
+			align-items: center;
+			display: flex;
+			justify-content: center;
+		}
+
+		.progress {
+			display: none;
+		}
+
+		.errorMsg {
+			font-size: 34px;
+			height: 100vh;
+			align-items: center;
+			display: flex;
+			justify-content: center;
+		}
+	</style>
+</head>
+<body>
+	<div class="navbar-fixed">
+		<nav>
+			<div class="nav-wrapper">
+				<div class="container">
+					<a href="#" class="brand-logo">Read Now</a>
+					<ul id="nav-mobile" class="right hide-on-med-and-down">
+						<li><a href="https://cnn.com">CNN</a></li>
+						<li><a href="https://www.nytimes.com/">NY Times</a></li>
+						<li><a href="https://globalnews.ca/world/">Global News</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div id="newsResults"></div>
+		</div>
+		<div id="loader">
+			<div class="progress">
+				<div class="indeterminate"></div>
+			</div>
+		</div>
+	</div>
+	<script src="jquery-3.3.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js">
+	</script>
+	<script src="app.js"></script>
+</body>
+</html>
