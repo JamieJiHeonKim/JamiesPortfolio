@@ -4,32 +4,53 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
 	<title>Signup</title>
+	<style>
+		body {
+			margin: 0;
+		}
+		.nav {
+			height: 80px;
+			border-bottom: 1px solid black;
+			display: flex;
+			align-items: center;
+		}
+		.websiteName {
+			margin-left: 10px;
+			font-size: 20px;
+			font-weight: bold;
+		}
+		.signup {
+			font-size: 20px;
+		}
+
+	</style>
 </head>
 <body>
+	<script
+		src="index.js">
+	</script>
 	<div class="nav">
 		<div class="websiteName">
 			World University Community
 		</div>
-		<div class="signup">
-			<for action="/action_page.php">
-				<label for="username">Enter username: </label>
-				<input type="string" id="username" name="userUsername"><br><br>
-			</for>
-			<for action="/action_page.php">
-				<label for="email">Enter email: </label>
-				<input type="email" id="email" name="userEmail"><br><br>
-			</for>
-			<for action="/action_page.php">
-				<label for="password">Enter password: </label><input type="password" id="password" name="userPassword"><br><br>
-			</for>
-			<input type="checkbox" onclick="showPassword()">Show Password
-			<div class="confirm">
-				<button onclick="location.href='http://www.jiheonkim.com/WUC/'"type="button">Create Account</button>
-			</div>
-			<div class="haveAccount">
-				Already have an account?
-				<a href="http://jiheonkim.com/WUC/">Go back to homepage!</a>
-			</div>
+	</div>
+	<div class="signup">
+		<label for="username">Enter username: </label>
+		<input type="string" id="username" name="userUsername"><br><br>
+
+		<label for="email">Enter email: </label>
+		<input type="email" id="email" name="userEmail"><br><br>
+
+		<label for="password">Enter password: </label>
+		<input type="password" id="password" name="userPassword"><br><br>
+
+		<input type="checkbox" onclick="showPassword()">Show Password
+		<div class="confirm">
+			<button onclick="location.href='http://www.jiheonkim.com/WUC/'"type="button">Create Account</button>
+		</div>
+		<div class="haveAccount">
+			Already have an account?
+			<a href="http://jiheonkim.com/WUC/">Go back to homepage!</a>
 		</div>
 	</div>
 </body>

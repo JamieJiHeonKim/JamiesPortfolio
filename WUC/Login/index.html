@@ -28,7 +28,7 @@
 </head>
 <body>
 	<script
-		src="content.js">
+		src="index.js">
 	</script>
 	<div class="nav">
 		<div class="websiteName">
@@ -36,14 +36,11 @@
 		</div>
 	</div>
 	<div class="login">
-		<for action="/action_page.php">
-			<label for="username">Enter username: </label>
-			<input type="string" id="username" name="username" placeholder="Username"><br><br>
-		</for>
-		<for action="/action_page.php">
-			<label for="username">Enter password: </label>
-			<input type="password" id="password" name="userPassword" placeholder="Password"><br><br>
-		</for>
+		<label for="username">Enter username: </label>
+		<input type="string" id="username" name="username" placeholder="Username"><br><br>
+
+		<label for="username">Enter password: </label>
+		<input type="password" id="password" name="userPassword" placeholder="Password"><br><br>
 		<input type="checkbox" onclick="showPassword()">Show Password
 		<div class="confirm">
 			<button onclick="location.href='http://www.jiheonkim.com/WUC/'" type="button">Log in</button>
